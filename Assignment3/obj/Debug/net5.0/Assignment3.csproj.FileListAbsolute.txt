@@ -1,0 +1,17 @@
+/Users/malitheoret/Desktop/Assignment3v2/Assignment3/obj/Debug/net5.0/Assignment3.csproj.AssemblyReference.cache
+/Users/malitheoret/Desktop/Assignment3v2/Assignment3/obj/Debug/net5.0/Assignment3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/malitheoret/Desktop/Assignment3v2/Assignment3/obj/Debug/net5.0/Assignment3.AssemblyInfoInputs.cache
+/Users/malitheoret/Desktop/Assignment3v2/Assignment3/obj/Debug/net5.0/Assignment3.AssemblyInfo.cs
+/Users/malitheoret/Desktop/Assignment3v2/Assignment3/obj/Debug/net5.0/Assignment3.csproj.CoreCompileInputs.cache
+/Users/malitheoret/Desktop/Assignment3v2/Assignment3/bin/Debug/net5.0/Assignment3.deps.json
+/Users/malitheoret/Desktop/Assignment3v2/Assignment3/bin/Debug/net5.0/Assignment3.runtimeconfig.json
+/Users/malitheoret/Desktop/Assignment3v2/Assignment3/bin/Debug/net5.0/Assignment3.runtimeconfig.dev.json
+/Users/malitheoret/Desktop/Assignment3v2/Assignment3/bin/Debug/net5.0/Assignment3.dll
+/Users/malitheoret/Desktop/Assignment3v2/Assignment3/bin/Debug/net5.0/ref/Assignment3.dll
+/Users/malitheoret/Desktop/Assignment3v2/Assignment3/bin/Debug/net5.0/Assignment3.pdb
+/Users/malitheoret/Desktop/Assignment3v2/Assignment3/bin/Debug/net5.0/CsvHelper.dll
+/Users/malitheoret/Desktop/Assignment3v2/Assignment3/obj/Debug/net5.0/Assignment3.csproj.CopyComplete
+/Users/malitheoret/Desktop/Assignment3v2/Assignment3/obj/Debug/net5.0/Assignment3.dll
+/Users/malitheoret/Desktop/Assignment3v2/Assignment3/obj/Debug/net5.0/ref/Assignment3.dll
+/Users/malitheoret/Desktop/Assignment3v2/Assignment3/obj/Debug/net5.0/Assignment3.pdb
+/Users/malitheoret/Desktop/Assignment3v2/Assignment3/obj/Debug/net5.0/Assignment3.genruntimeconfig.cache
