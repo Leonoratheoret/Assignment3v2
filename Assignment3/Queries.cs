@@ -52,6 +52,24 @@ namespace Assignment3
             return sithLord;
 
         }
+        
+        public IEnumerable Unique_HarryPotter_Wizards_List()
+        {
+            var wizards = Wizard.Wizards.Value;
+            var list = wizards.Where(c => c.Medium.Contains("Harry Potter")).Select(w => new {w.Name, w.Year});
+        
+            return list.Distinct();
+        }
+        
+        public IEnumerable Unique_HarryPotter_Wizards_List2()
+        {
+            var wizards = Wizard.Wizards.Value;
+            var list = 
+                from Wiz in wizards
+                where Wiz.Medium.Contains("Harry Potter")
+                select new { Wiz.Name, Wiz.Year };
 
+            return list.Distinct();
+        }
     }
 }

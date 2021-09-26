@@ -12,6 +12,10 @@ namespace Assignment3
             Queries q = new Queries();
             Console.WriteLine(q.Sith_Lords_Year2());
 
+            foreach (var w in q.Unique_HarryPotter_Wizards_List())
+            {
+                Console.WriteLine(w);
+            }
         }
     }
 }
