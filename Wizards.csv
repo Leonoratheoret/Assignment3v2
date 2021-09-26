@@ -1,9 +1,5 @@
 Name,Medium,Year,Creator
-
-//STAR
 "Darth Vader","Star Wars",1977,"George Lucas"
-
-//LOTR
 "Sauron","The Fellowship of the Ring",1954,"J.R.R. Tolkien"
 "Gandalf","The Fellowship of the Ring",1954,"J.R.R. Tolkien"
 "Frodo","The Fellowship of the Ring",1954,"J.R.R. Tolkien"
@@ -15,8 +11,6 @@ Name,Medium,Year,Creator
 "Merry","The Fellowship of the Ring",1954,"J.R.R. Tolkien"
 "Boromir","The Fellowship of the Ring",1954,"J.R.R. Tolkien"
 "Gollum","The Fellowship of the Ring",1954,"J.R.R. Tolkien"
-
-//NARNIA
 "Peter","The Lion, the Witch and the Wardrobe",1950,"C.S. Lewis"
 "Susan","The Lion, the Witch and the Wardrobe",1950,"C.S. Lewis"
 "Edmund","The Lion, the Witch and the Wardrobe",1950,"C.S. Lewis"
@@ -25,9 +19,6 @@ Name,Medium,Year,Creator
 "Aslan","The Lion, the Witch and the Wardrobe",1950,"C.S. Lewis"
 "Prince Caspian","Prince Caspian",1951,"C.S. Lewis"
 "Reepicheep","Prince Caspian",1951,"C.S. Lewis"
-
-
-//HP
 "Harry James Potter","Harry Potter and the Philosopher's Stone",1997,"J.K.Rowling"
 "Hermione Jean Granger","Harry Potter and the Philosopher's Stone",1997,"J.K.Rowling"
 "Ronald Bilius Weasley","Harry Potter and the Philosopher's Stone",1997,"J.K.Rowling"
@@ -50,18 +41,13 @@ Name,Medium,Year,Creator
 "Petunia Dursley","Harry Potter and the Philosopher's Stone",1997,"J.K.Rowling"
 "Dudley Dursley","Harry Potter and the Philosopher's Stone",1997,"J.K.Rowling"
 "Garrick Ollivander","Harry Potter and the Philosopher's Stone",1997,"J.K.Rowling"
-
 "Lucius malfoy","Harry Potter and the Chamber of Secrets",1998,"J.K.Rowling"
 "Dobby","Harry Potter and the Chamber of Secrets",1998,"J.K.Rowling"
-
 "Sirius Black","Harry Potter and the Prisoner of Azkaban",1999,"J.K.Rowling"
 "Remus John Lupin","Harry Potter and the Prisoner of Azkaban",1999,"J.K.Rowling"
 "Peter Pettigrew","Harry Potter and the Prisoner of Azkaban",1999,"J.K.Rowling"
-
 "Luna Lovegood","Harry Potter and the Order of the Phoenix",1997,"J.K.Rowling"
 "Dolores Jane Umbridge","Harry Potter and the Order of the Phoenix",1997,"J.K.Rowling"
-
-//SPOOKS
 "Thomas Ward","The Spook's Apprentice",2004,"Joseph Delaney"
 "Alice Deane","The Spook's Apprentice",2004,"Joseph Delaney"
 "Bony Lizzie","The Spook's Apprentice",2004,"Joseph Delaney"

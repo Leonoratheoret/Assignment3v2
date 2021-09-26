@@ -9,6 +9,9 @@ namespace Assignment3
             string s = "Hello, World!";
             Extensions.ReverseString(s);
 
+            Queries q = new Queries();
+            q.Wizards_By_Rowling2();
+
         }
     }
 }
