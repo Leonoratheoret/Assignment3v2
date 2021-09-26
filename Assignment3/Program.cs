@@ -10,7 +10,7 @@ namespace Assignment3
             Extensions.ReverseString(s);
 
             Queries q = new Queries();
-            q.Wizards_By_Rowling2();
+            Console.WriteLine(q.Sith_Lords_Year2());
 
         }
     }

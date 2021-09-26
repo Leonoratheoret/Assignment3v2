@@ -1,5 +1,7 @@
 using System;
+using System.Collections;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace Assignment3
 {
@@ -28,6 +30,27 @@ namespace Assignment3
             {
                 Console.WriteLine(w);
             }
+        }
+        
+        public int? Sith_Lords_Year()
+        {
+            var wizards = Wizard.Wizards.Value;
+            var sithLord = wizards.Where(c => c.Name.Contains("Darth")).Min(w => w.Year);
+
+            return sithLord;
+        }
+        
+        public int? Sith_Lords_Year2()
+        {
+            var wizards = Wizard.Wizards.Value;
+            var sithLord = (
+                from Wiz in wizards
+                where Wiz.Name.Contains("Darth")
+                orderby Wiz.Year  
+                select Wiz.Year).First();
+
+            return sithLord;
+
         }
 
     }
