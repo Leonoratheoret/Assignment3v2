@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 
@@ -53,26 +54,26 @@ namespace Assignment3
 
         }
         
-        public IEnumerable Unique_HarryPotter_Wizards_List()
+        public IEnumerable<(string,int?)> Unique_HarryPotter_Wizards_List()
         {
             var wizards = Wizard.Wizards.Value;
-            var list = wizards.Where(c => c.Medium.Contains("Harry Potter")).Select(w => new {w.Name, w.Year});
+            var list = wizards.Where(c => c.Medium.Contains("Harry Potter")).Select(w => (w.Name, w.Year));
         
             return list.Distinct();
         }
         
-        public IEnumerable Unique_HarryPotter_Wizards_List2()
+        public IEnumerable<(string, int?)> Unique_HarryPotter_Wizards_List2()
         {
             var wizards = Wizard.Wizards.Value;
             var list = 
                 from Wiz in wizards
                 where Wiz.Medium.Contains("Harry Potter")
-                select new { Wiz.Name, Wiz.Year };
+                select (Wiz.Name, Wiz.Year);
 
             return list.Distinct();
         }
         
-        public IEnumerable Order_Wizards_List()
+        public IEnumerable<IEnumerable<string>> Order_Wizards_List()
         {
             var wizards = Wizard.Wizards.Value;
             var list = wizards.OrderByDescending(w => w.Creator)
@@ -84,7 +85,7 @@ namespace Assignment3
             return list;
         }
         
-        public IEnumerable Order_Wizards_List2()
+        public IEnumerable<string> Order_Wizards_List2()
         {
             var wizards = Wizard.Wizards.Value;
             var list = 

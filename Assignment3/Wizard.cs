@@ -20,9 +20,10 @@ namespace Assignment3
 
         public static Lazy<IReadOnlyCollection<Wizard>> Wizards { get; } = new Lazy<IReadOnlyCollection<Wizard>>(() =>
         {
-            var csv = File.OpenText("../../../../Wizards.csv");
+            var csv = File.OpenText("/Users/malitheoret/Desktop/Assignment3v2/Wizards.csv");
             using var reader = new CsvReader(csv, CultureInfo.InvariantCulture);
             return reader.GetRecords<Wizard>().ToList().AsReadOnly();
         });
+
     }
 }
