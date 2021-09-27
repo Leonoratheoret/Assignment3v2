@@ -71,5 +71,31 @@ namespace Assignment3
 
             return list.Distinct();
         }
+        
+        public IEnumerable Order_Wizards_List()
+        {
+            var wizards = Wizard.Wizards.Value;
+            var list = wizards.OrderByDescending(w => w.Creator)
+                .ThenByDescending(w => w.Name)
+                .GroupBy(w => w.Creator, 
+                w => w.Name, 
+                (key, g) => g);
+        
+            return list;
+        }
+        
+        public IEnumerable Order_Wizards_List2()
+        {
+            var wizards = Wizard.Wizards.Value;
+            var list = 
+                from Wiz in wizards
+                orderby Wiz.Name descending 
+                orderby Wiz.Creator descending 
+                group Wiz by new {Wiz.Creator, Wiz.Name} into g
+                select g.Key.Name;
+
+            return list;
+        }
+        
     }
 }

@@ -10,11 +10,15 @@ namespace Assignment3
             Extensions.ReverseString(s);
 
             Queries q = new Queries();
-            Console.WriteLine(q.Sith_Lords_Year2());
+            Console.WriteLine(q.Sith_Lords_Year());
 
-            foreach (var w in q.Unique_HarryPotter_Wizards_List())
+            foreach (string[] w in q.Order_Wizards_List())
             {
-                Console.WriteLine(w);
+                foreach (var v in w)
+                {
+                    Console.WriteLine(v);    
+                }
+                
             }
         }
     }
