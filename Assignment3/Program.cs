@@ -8,18 +8,6 @@ namespace Assignment3
         {
             string s = "Hello, World!";
             Extensions.ReverseString(s);
-
-            //Queries q = new Queries();
-            // Console.WriteLine(q.Sith_Lords_Year());
-
-            // foreach (string[] w in q.Order_Wizards_List())
-            // {
-            //     foreach (var v in w)
-            //     {
-            //         Console.WriteLine(v);    
-            //     }
-                
-            // }
         }
     }
 }
